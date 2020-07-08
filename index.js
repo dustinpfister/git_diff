@@ -4,9 +4,11 @@ path = require('path');
 
 list({
     cwd: __dirname,
-    count: 10
+    count: 5
 }).then((commits) => {
     return diff({
+        firstIndex: 1,
+        lastIndex: 0,
         commits: commits
     });
 }).then((out) => {
