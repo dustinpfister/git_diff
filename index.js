@@ -10,9 +10,7 @@ list({
         commits: commits
     });
 }).then((out) => {
-
     console.log(out);
-
 }).catch((e) => {
     console.log(e);
 });

@@ -1,5 +1,7 @@
 # git_diff
 
+This is just some quick demos of using the git log, and got diff commands along with a little javaScript.
+
 ```
 $ git log -n 20 --format="%H"
 d400b26b1262cc472422daacada58cc223e14f56
